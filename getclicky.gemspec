@@ -12,6 +12,7 @@ Gem::Specification.new do |s|
   s.description = s.summary
 
   s.add_dependency "hashie"                   , "~> 1.2.0"
+  s.add_dependency "httparty"
   s.add_development_dependency "rspec"        , "~> 2.8"
   s.add_development_dependency "test_notifier", "~> 1.0.0"
   s.add_development_dependency "fakeweb"      , "~> 1.3.0"
