@@ -24,7 +24,7 @@ module Getclicky
         parse(@item.first['dates'])
       elsif @item.size > 1
         {}.tap do |results|
-          @item.collect { |r| results[r['type'].intern] = parse(r['dates']) }
+          JSON.parse(@item).collect { |r| results[r['type'].intern] = parse(r['dates']) }
         end
       else
         @item
