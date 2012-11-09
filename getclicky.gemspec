@@ -1,10 +1,9 @@
 # -*- encoding: utf-8 -*-
 $:.push File.expand_path("../lib", __FILE__)
-require "getclicky/version"
 
 Gem::Specification.new do |s|
   s.name        = "getclicky"
-  s.version     = Getclicky::Version::STRING
+  s.version     = "0.1.3a"
   s.authors     = ["Peterson Ferreira"]
   s.email       = ["petersonferreiras@gmail.com"]
   s.homepage    = "http://github.com/petersonferreira/getclicky"
